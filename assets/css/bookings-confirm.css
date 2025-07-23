@@ -1,0 +1,26 @@
+.booking-confirm-hero {
+  background: linear-gradient(180deg, #BBABFF 0%, rgba(187, 171, 255, 0.54) 58.48%, rgba(187, 171, 255, 0.00) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  min-height: 40vh;
+}
+
+.booking-confirm-hero .wrapper {
+  padding-block: 9rem 3rem;
+}
+
+.booking-confirm-hero h2 {
+  font-weight: 800;
+  color: #121212;
+  margin-inline: auto;
+}
+
+.booking-confirm-hero p {
+  margin-inline: auto;
+  margin-block: 14px 16px;
+  max-width: 710px;
+  font-size: 18px;
+  line-height: 144.3%;
+}

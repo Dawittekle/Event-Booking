@@ -1,0 +1,115 @@
+.add-venue-section {
+  background: linear-gradient(180deg, #BBABFF 0%, rgba(187, 171, 255, 0.54) 38.48%, rgba(187, 171, 255, 0.00) 94.17%);
+  text-align: center;
+}
+
+.add-venue-section .wrapper {
+  padding-block: 9rem 3rem;
+}
+
+.add-venue-section h2 {
+  max-width: 845px;
+  font-weight: 800;
+  color: #121212;
+  margin-inline: auto;
+  margin-bottom: 1.5rem;
+}
+
+.add-venue-section p {
+  margin-inline: auto;
+  margin-block: 16px 56px;
+  max-width: 710px;
+  font-size: 18px;
+  line-height: 144.3%;
+}
+
+.add-form {
+  display: flex;
+  gap: 10px;
+  padding: 16px;
+  background: #F6F6F6;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.add-form input[type="text"],
+.add-form input[type="number"],
+.add-form input[type="date"],
+.add-form select,
+.add-form textarea,
+.add-form input[type="file"] {
+  padding: 6px 10px;
+  border-radius: 7px;
+  height: 42px;
+  border: 1px solid #6B7A69;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-form textarea {
+  height: 150px;
+}
+
+.add-form input[type="text"]:focus,
+.add-form input[type="number"]:focus,
+.add-form input[type="date"]:focus,
+.add-form select:focus,
+.add-form textarea:focus {
+  outline-color: #64b100;
+}
+
+.add-form label {
+  display: flex;
+  flex-direction: column;
+  color: rgba(8, 8, 8, 0.70);
+  align-items: flex-start;
+}
+
+.checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.custom-checkbox span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 1rem;
+  border-radius: 0.4375rem;
+  background: #FFF;
+  box-shadow: 1px 2px 28px 0px rgba(7, 7, 7, 0.03);
+  cursor: pointer;
+  transition: background 0.1s ease-in-out, color 0.1s ease-in-out, transform 0.1s ease-in-out;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+span {
+  background: #333;
+  color: #FFF;
+}
+
+.add-form button {
+  height: 42px;
+  padding-inline: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #BFFC71;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+}
+
+.add-form button:hover {
+  background-color: #9ed950;
+}

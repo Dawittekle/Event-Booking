@@ -1,0 +1,80 @@
+.list-hero-section {
+  background: linear-gradient(180deg, #BBABFF 0%, rgba(187, 171, 255, 0.54) 38.48%, rgba(187, 171, 255, 0.00) 94.17%);
+  text-align: center;
+  min-height: 60vh;
+}
+
+.list-hero-section .wrapper {
+  padding-block: 9rem 3rem;
+}
+
+.list-hero-text h1 {
+  max-width: 845px;
+  font-weight: 800;
+  color: #121212;
+  margin-inline: auto;
+}
+
+.list-hero-text p {
+  margin-inline: auto;
+  margin-block: 16px 56px;
+  max-width: 710px;
+  font-size: 18px;
+  line-height: 144.3%;
+}
+
+.filter-form {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 16px;
+  background: #F6F6F6;
+  border-radius: 20px;
+}
+
+.filter-form input[type="text"],
+.filter-form input[type="number"],
+.filter-form input[type="date"],
+.filter-form select {
+  padding: 6px 10px;
+  border-radius: 7px;
+  border: 1px solid #6B7A69;
+  font-size: 1rem;
+  height: 42px;
+}
+
+.filter-form input[type="text"]:focus,
+.filter-form input[type="number"]:focus,
+.filter-form input[type="date"]:focus,
+.filter-form select:focus {
+  outline-color: #64b100;
+}
+
+.filter-form label {
+  display: flex;
+  flex-direction: column;
+  color: rgba(8, 8, 8, 0.70);
+  align-items: flex-start;
+}
+
+.filter-form button {
+  height: 42px;
+  padding-inline: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #BFFC71;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+}
+
+.venues-list p.no-venues {
+  text-align: center;
+  font-size: 20px;
+  background-color: #ffdcd873;
+  border-radius: 7px;
+  padding-block: 3rem;
+  border: 2px dashed rgba(255, 59, 15, 0.529);
+}
